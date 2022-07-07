@@ -1,6 +1,8 @@
 # event-bus
 
-[![NPM version](https://img.shields.io/npm/v/event-bus?color=a1b858&label=)](https://www.npmjs.com/package/event-bus)
+🥷 event-bus with vue@2.7
+
+[![NPM version](https://img.shields.io/npm/v/@akashi_sai/event-bus?color=a1b858&label=)](https://www.npmjs.com/package/@akashi_sai/event-bus)
 
 ## License
 

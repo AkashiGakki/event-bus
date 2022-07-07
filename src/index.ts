@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from 'vue'
 import type { Event } from './types'
 
 const bus = new Vue()
