@@ -1,7 +1,7 @@
 {
   "name": "@akashi/event-bus",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.2.1",
   "description": "",
   "author": "Akashi Sai <akashi_sai@163.com>",
