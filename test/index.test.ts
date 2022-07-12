@@ -9,7 +9,15 @@ describe('should', () => {
     bus.$on('test', fn)
     bus.$off('test', fn)
 
-    expect(ret._events).toMatchInlineSnapshot(
+    expect(ret._events).toMatchInlineSnapshot(`
+      {
+        "test": [
+          [Function],
+        ],
+      }
+    `)
+
+    expect(bus.events).toMatchInlineSnapshot(
       `
       {
         "test": [
