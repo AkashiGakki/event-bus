@@ -4,19 +4,19 @@ import type { Event } from './types'
 const bus = new Vue()
 
 export function $on(event: Event, callback: Function) {
-  bus.$on(event, callback)
+  return bus.$on(event, callback)
 }
 
 export function $once(event: Event, callback: Function) {
-  bus.$once(event, callback)
+  return bus.$once(event, callback)
 }
 
 export function $off(event?: Event, callback?: Function) {
-  bus.$off(event, callback)
+  return bus.$off(event, callback)
 }
 
 export function $emit(event: string, ...args: any[]) {
-  bus.$emit(event, ...args)
+  return bus.$emit(event, ...args)
 }
 
 export default {
